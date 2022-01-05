@@ -1,0 +1,194 @@
+body {
+  background: url(../bg.jpeg) center center / cover no-repeat;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 2px 1px 15px #0000007d;
+}
+
+.pesonaly {
+  padding: 0px 0px 30px 30px;
+}
+
+.pesonaly__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personaly__about {
+  display: inline-block;
+  max-width: 480px;
+}
+
+.personaly__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.personaly__avatar {
+  width: 200px;
+}
+
+.personaly__avatar img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.personaly__info span {
+  margin-bottom: 8px;
+}
+
+.purposes {
+  padding-bottom: 20px;
+  box-shadow: 2px 1px 15px #0000007d;
+}
+
+.purposes__list {
+  padding-left: 80px;
+}
+
+.title {
+  text-align: center;
+}
+
+.purposes__item {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.time__teach table {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.time__teach {
+  padding-bottom: 20px;
+}
+
+.course__table {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-spacing: 0;
+}
+
+.course__table td {
+  padding-top: 5px;
+}
+
+.course__table th {
+  border-bottom: 2px solid #000;
+  padding-bottom: 7px;
+}
+
+
+td a {
+  color: #000;
+}
+
+td a:hover {
+  color: brown;
+}
+
+
+.contacts {
+  padding-bottom: 20px;
+}
+
+.contacts__list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts__item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+}
+
+.contacts__item img {
+  width: 60px;
+  margin-bottom: 8px;
+}
+
+.contacts__item img:hover,
+.contacts__item a:hover {
+  color: #fff;
+}
+
+
+@media (max-width: 420px) {
+  .pesonaly__wrap {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .pesonaly {
+    padding: 0px;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .purposes__list {
+    padding-left: 39px;
+    padding-right: 20px;
+  }
+
+  .time__teach table {
+    width: 70%;
+  }
+
+  .course__table td,
+  .course__table th {
+    font-size: 13px;
+  }
+
+  .contacts__item img {
+    width: 40px;
+  }
+
+  .purposes__item {
+    font-size: 16px;
+  }
+
+  .personaly__avatar {
+    margin-bottom: 20px;
+  }
+}
